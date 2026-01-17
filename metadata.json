@@ -1,0 +1,56 @@
+{
+  "name": "متجر نجوم دلتا للتجارة - النسخة السيادية",
+  "short_name": "نجوم دلتا",
+  "description": "منصة التوريد اللوجستي المتكاملة والذكية للفنادق والشركات الكبرى بالمملكة.",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1-0qvsPmpVVnWdGJHrlJ4rbtecG-i5n4l",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1-0qvsPmpVVnWdGJHrlJ4rbtecG-i5n4l",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "start_url": "/?pwa_launch=true",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1a3a1a",
+  "background_color": "#ffffff",
+  "categories": [
+    "shopping",
+    "business",
+    "food"
+  ],
+  "shortcuts": [
+    {
+      "name": "سوق المنتجات",
+      "url": "/?page=products",
+      "icons": [
+        {
+          "src": "https://lh3.googleusercontent.com/d/1-0qvsPmpVVnWdGJHrlJ4rbtecG-i5n4l",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "تتبع شحنتي",
+      "url": "/?page=track",
+      "icons": [
+        {
+          "src": "https://lh3.googleusercontent.com/d/1-0qvsPmpVVnWdGJHrlJ4rbtecG-i5n4l",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
